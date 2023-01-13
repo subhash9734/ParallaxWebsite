@@ -1,0 +1,84 @@
+html,body{
+   height: 100%;
+   margin: 0;
+   font-size: 16px;
+   font-family: "Lato", sans-serif;
+   font-weight: 400;
+   line-height: 1.8em;
+   color: rgb(214, 211, 211);
+}
+.pimg1{
+    background-image: url(https://apochi.com/wp-content/uploads/2018/08/stock-photo-36746152-1.jpg);
+    min-height: 100%;
+}
+.pimg2{
+    background-image: url(https://miro.medium.com/max/1400/1*JVtenoztAjm0HGfvXUGorw.jpeg);
+    min-height: 85%;
+}
+.pimg3{
+    background-image: url(https://apochi.com/wp-content/uploads/2018/08/eram-garden.shiraz.iran_.jpg);
+    min-height: 70%;
+}
+.pimg4{
+    background-image: url(https://apochi.com/wp-content/uploads/2018/08/pack_khalal.jpg);
+    min-height: 100%;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+.textBg{
+    background: rgb(47, 40, 40);
+    color:white;
+    padding: 5px;
+    
+}
+.section{
+    padding: 50px 80px;
+    text-align: center;
+}
+.section_light{
+    background-color: lightgrey;
+    color:grey;
+    box-shadow: 0px 0px 53px 11px blue inset;
+}
+.section_dark{
+    background-color: rgb(39, 37, 37);
+    color:beige;
+    box-shadow: 0px 0px 53px 11px rgb(114, 114, 237) inset;
+}
+.section_light h2 {
+    font-weight: bold;
+    color: black;
+    text-decoration: underline  
+}
+.section_light p {
+    color: black;
+}
+
+
+footer{
+    border: 3px solid black;
+    background-color: black;
+    box-shadow: 2px 5px 44px lightgreen inset;
+}
+footer p{
+    text-align: end;
+    font-size: 20px;
+    text-decoration: overline underline;
+}
